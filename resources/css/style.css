@@ -1,24 +1,52 @@
 *{
-  background-color: #32657c
+  background-color: #014040;
 }
 
 h1{
-
-  font-size: 7rem
+  font-size: 7rem;
+  color: #F27405;
+    padding: 20px;
 }
-h1{
-  color: #cf8145
+
+h4{
+  padding-bottom: 20px
 }
 
 a{
   text-decoration: none;
-  color: #d24790
+  color: #d24790;
+  font-size: 3rem;
+   transition-duration: 1s;
+   border: 5px groove #000;
+
 }
 
 a:hover{
-  color: #cf8145
+  color: #cf8145;
+  padding: 20px 20px 20px 20px;
+  border: 5px groove #02735E;
+  border-radius: 70%;
+  font-family: "Montserrat Underline", sans-serif;
+
 }
 
-a{
-font-size: 3rem
+ol,
+ul{
+    padding: 20px;
+    color: #03A678
+}
+
+.recipie{
+  border-top: 5px solid #731702;
+  margin: 20px;
+}
+
+.lunch{
+  border-top: 5px solid #731702;
+  margin: 20px;
+}
+
+.dinner{
+  border-top: 5px solid #731702;
+  margin: 20px;
 }
